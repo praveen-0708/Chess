@@ -45,7 +45,7 @@ button:hover {
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+.loginbtn, .signupbtn {
   float: left;
   width: 50%;
 }
@@ -53,8 +53,17 @@ button:hover {
 /* Add padding to container elements */
 .container {
   padding: 16px;
-}
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ width:50%;
 
+}
+.parent{
+display:inline-block;
+
+
+}
 /* Clear floats */
 .clearfix::after {
   content: "";
@@ -69,3 +78,12 @@ button:hover {
   }
 }
 
+.col .login-form{
+padding:16px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:50%;
+
+
+}
